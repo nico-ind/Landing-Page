@@ -57,8 +57,8 @@ a {
 
 .right-section-one{
     display: flex;
-    width: 700px;
-    min-width: 700px;
+    width: 600px;
+    min-width: 600px;
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -83,6 +83,9 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    padding: 60px 500px;
+    margin: 0;
 }
 
 .section-two {
@@ -96,7 +99,7 @@ button{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 36px;
+    padding: 48px 36px;
 }
 
 .content {
@@ -136,12 +139,12 @@ button{
     font-style: italic;
     font-weight: light;
     color: #1F2937;
-    padding: 150px 550px 0px 550px;
+    padding: 150px 450px 0px 450px;
 }
 
 .author-quote-text {
     color: #1F2937;
-    padding: 0px 550px 150px 800px;
+    padding: 0px 400px 150px 700px;
 }
 
 .section-four {
