@@ -5,7 +5,6 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
 
 ul {
@@ -14,7 +13,7 @@ ul {
     margin: 0;
     display: flex;
     gap: 36px;
-    margin-right: 300px;
+    margin: 24px 300px 0px 0px;
 }
 
 a {
@@ -32,12 +31,50 @@ a {
 .header-logo-text {
     font-size: 24px;
     color: #F9FAF8;
-    margin: 16px 0px 16px 300px;
+    margin: 24px 0px 0px 300px;
 }
 
 .Hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.section-one {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.left-section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 460px;
+    margin: 180px 0px 180px 300px;
+}
+
+.right-section-one{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin: 180px 300px 180px 0px;
+}
+
+.Hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 12px;
+    width: 120px;
+    padding: 12px 24px;
 }
 
 .footer {
