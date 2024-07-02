@@ -143,3 +143,33 @@ button{
     color: #1F2937;
     padding: 0px 550px 150px 800px;
 }
+
+.section-four {
+    padding: 120px 400px 120px 400px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 120px 40px 120px;
+    border-radius: 12px;
+}
+
+.left-call-to-action {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: baseline;
+}
+
+.call-text {
+    margin: 0;
+}
+
+.button-action {
+    border-color: white;
+    border-width: 4px;
+}
