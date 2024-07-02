@@ -32,6 +32,7 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     margin: 24px 0px 0px 300px;
+    font-weight: bold;
 }
 
 .Hero-secondary-text {
@@ -101,7 +102,7 @@ button{
 .content {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
     margin-bottom: 150px;
 }
 
@@ -122,4 +123,23 @@ button{
 
 .image-text {
     color: #1F2937;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 150px 550px 0px 550px;
+}
+
+.author-quote-text {
+    color: #1F2937;
+    padding: 0px 550px 150px 800px;
 }
